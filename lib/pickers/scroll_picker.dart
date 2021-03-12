@@ -55,7 +55,7 @@ class _ScrollPickerState extends State<ScrollPicker> {
   Widget build(BuildContext context) {
     final ThemeData themeData = Theme.of(context);
     TextStyle defaultStyle = TextStyle(fontFamily: 'Quicksand', color: Colors.black54.withOpacity(0.5));
-    TextStyle selectedStyle = TextStyle(fontFamily: 'Quicksand', fontWeight: FontWeight.bold , fontSize: 20 ,color: Colors.black54.withOpacity(0.5));
+    TextStyle selectedStyle = TextStyle(fontFamily: 'Quicksand', fontWeight: FontWeight.bold , fontSize: 30 ,color:  Color(0xff4892F0));
 
 
     return LayoutBuilder(
