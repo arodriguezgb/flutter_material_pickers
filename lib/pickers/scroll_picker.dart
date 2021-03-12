@@ -54,9 +54,9 @@ class _ScrollPickerState extends State<ScrollPicker> {
   @override
   Widget build(BuildContext context) {
     final ThemeData themeData = Theme.of(context);
-    TextStyle? defaultStyle = themeData.textTheme.bodyText2;
-    TextStyle? selectedStyle =
-        themeData.textTheme.headline5?.copyWith(color: themeData.accentColor);
+    TextStyle defaultStyle = TextStyle(fontFamily: 'Quicksand', color: Colors.black54.withOpacity(0.5));
+    TextStyle selectedStyle = TextStyle(fontFamily: 'Quicksand', fontWeight: FontWeight.bold , fontSize: 20 ,color: Colors.black54.withOpacity(0.5));
+
 
     return LayoutBuilder(
       builder: (BuildContext context, BoxConstraints constraints) {
